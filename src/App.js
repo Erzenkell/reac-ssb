@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Parallax } from "react-parallax";
+import CustomCarousel from './components/carousel/CustomCarousel';
+import CarouselTitle from './components/carousel/carouselTitle/CarouselTitle';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <CustomCarousel/>
+      <CarouselTitle/>
+      <div>
+        <Parallax           
+          blur={{ min: -30, max: 30 }}
+          bgImage={require("./assets/parallax/parallax-bg.jpeg")}
+          bgImageAlt="parallax-bg"
+          strength={-200}
         >
-          Learn React
-        </a>
-      </header>
+        </Parallax>
+      </div>
     </div>
   );
 }
