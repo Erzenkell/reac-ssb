@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from "react-bootstrap";
 import "./projects.css";
+import ProjectCardCarousel from '../../components/projectCardCarousel/ProjectCardCarousel';
 
 const Projects = () => {
     return(
@@ -23,7 +24,7 @@ const Projects = () => {
                          </Row>
                     </Col>
                     <Col xs={12} md={6}>
-                        {/* <ProjectCardcarousel/> */}
+                        <ProjectCardCarousel/>
                     </Col>
                 </Row>
             </Container>
