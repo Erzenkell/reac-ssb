@@ -13,14 +13,13 @@ const Projects = () => {
                         <Row className="justify-content-center mb-2 mr-2 projects-text">
                             <br />
                             Here are my differents projects made along my journey as a developer.
-                            <br />                                <br/>
+                            <br />                                
+                            <br/>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             <br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             <br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <br /> 
-                            <br />
                          </Row>
                     </Col>
                     <Col xs={12} md={6}>

@@ -16,7 +16,6 @@ const About = () => {
                     </Col>
                     <Col xs={12} md={6}>
                         <Row className=" align-items-start p-2 rounded tex align-text-left about-text" >
-                            <br />
                             Web Developer with expertise of React.js, Next, Javascript, HTML and CSS. Currently working with React Native for a Web Application.
                             <br />
                             <br/>
@@ -63,7 +62,7 @@ const About = () => {
                                     </Button>
                                     </a>
                                 </div>
-                            </Col>
+                            </Col>                       
                         </Row>
                     </Col>
                 </Row>

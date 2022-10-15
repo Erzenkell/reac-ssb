@@ -1,57 +1,47 @@
 import React from 'react'
 import { Card, Carousel, Button } from "react-bootstrap";
 
+const ProjectList = [
+    {
+        title: "Test 1",
+        imgSrc: require("../../assets/kirbok.jpg"),
+        imgDesc: "test1",
+        text: "project language and content",
+    },
+    {
+        title: "Test 2",
+        imgSrc: require("../../assets/kirbok.jpg"),
+        imgDesc: "test2",
+        text: "project language and content",
+    },
+    {
+        title: "Test 3",
+        imgSrc: require("../../assets/kirbok.jpg"),
+        imgDesc: "test3",
+        text: "project language and content",
+    },
+]
+
 const ProjectCardCarousel = () => {
     return(
         <Carousel>
+            { ProjectList.map(Project => (
             <Carousel.Item>
                 <Card className="bg-dark text-white">
-                    <Card.Img src={require("../../assets/kirbok.jpg")} alt="test1" />
+                    <Card.Img src={Project.imgSrc} alt="test1" />
                     <Card.ImgOverlay>
-                        <Card.Title>Test 1</Card.Title>
+                        <Card.Title>{Project.imgDesc}</Card.Title>
                     </Card.ImgOverlay>
                     <Card.Body>
-                        <Card.Title>Card Title 1</Card.Title>
+                        <Card.Title>{Project.title}</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                            {Project.text}
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Project repo</Button>
                     </Card.Body>
                 </Card>
             </Carousel.Item>
-            <Carousel.Item>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={require("../../assets/kirbok.jpg")}alt="test2" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Test 2</Card.Title>
-                    </Card.ImgOverlay>
-                    <Card.Body>
-                        <Card.Title>Card Title 2</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={require("../../assets/kirbok.jpg")} alt="test3" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Test 3</Card.Title>
-                    </Card.ImgOverlay>
-                    <Card.Body>
-                        <Card.Title>Card Title 3</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+            ))}
         </Carousel>
     );
 }

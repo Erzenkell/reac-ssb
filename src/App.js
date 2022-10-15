@@ -20,16 +20,20 @@ function App() {
           bgImageAlt="parallax-bg"
           strength={-200}
         >
-          <Container className="container-box rounded">
-            <Fade left duration={2000}>
-              <About />
-            </Fade>
-          </Container>
-          <Container className="container-box rounded">
-            <Fade left duration={2000}>
-              <Projects />
-            </Fade>
-          </Container>
+          <div>
+            <Container className="container-box rounded">
+              <Fade left duration={2000}>
+                <About />
+              </Fade>
+            </Container>
+          </div>
+          <div>
+            <Container className="container-box rounded">
+              <Fade right duration={2000}>
+                <Projects />
+              </Fade>
+            </Container>
+          </div>
         </Parallax>
       </div>
     </div>
