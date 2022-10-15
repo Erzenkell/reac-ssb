@@ -5,7 +5,8 @@ import { Fade } from 'react-reveal';
 
 import CustomCarousel from './components/carousel/CustomCarousel';
 import CarouselTitle from './components/carousel/carouselTitle/CarouselTitle';
-import About from './components/about/About';
+import About from './pages/about/About';
+import Projects from './pages/projects/Projects';
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
           <Container className="container-box rounded">
             <Fade left duration={2000}>
               <About />
+            </Fade>
+          </Container>
+          <Container className="container-box rounded">
+            <Fade left duration={2000}>
+              <Projects />
             </Fade>
           </Container>
         </Parallax>
