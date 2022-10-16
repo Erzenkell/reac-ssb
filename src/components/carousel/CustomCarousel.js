@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel'
+import ScrollDownIndicator from "../scrollDownIndicator/ScrollDownIndicator";
 
 import "./carousel.css";
 
@@ -21,6 +22,7 @@ const CustomCarousel = () => {
                     />
                 </Carousel.Item>
             </Carousel>
+            <ScrollDownIndicator/>
         </div>
     )
 }
