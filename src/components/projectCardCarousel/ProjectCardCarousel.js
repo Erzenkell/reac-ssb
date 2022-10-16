@@ -24,7 +24,7 @@ const ProjectList = [
 
 const ProjectCardCarousel = () => {
     return(
-        <Carousel>
+        <Carousel interval={2500}>
             { ProjectList.map(Project => (
             <Carousel.Item>
                 <Card className="bg-dark text-white">

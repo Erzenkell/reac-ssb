@@ -6,10 +6,10 @@ import ProjectCardCarousel from '../../components/projectCardCarousel/ProjectCar
 const Projects = () => {
     return(
         <div className='projects'>
-            <h1 className="pt-3 text-center pb-2">PROJECTS</h1>
+            <h1 className="pt-3 text-center pb-2 projects-title">PROJECTS</h1>
             <Container>
                 <Row className=" pb-5 align-items-center">
-                    <Col xs={12} md={6}>
+                    <Col xs>
                         <Row className="justify-content-center mb-2 mr-2 projects-text">
                             <br />
                             Here are my differents projects made along my journey as a developer.
@@ -22,7 +22,7 @@ const Projects = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                          </Row>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col lg={7}>
                         <ProjectCardCarousel/>
                     </Col>
                 </Row>

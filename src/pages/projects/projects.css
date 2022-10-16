@@ -1,3 +1,10 @@
+.projects-title {
+    color: white;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    font-size: 50px;
+}
+
 .projects-text {
     color: white;
     font-size: 1.5rem;
