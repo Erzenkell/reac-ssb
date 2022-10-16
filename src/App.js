@@ -5,20 +5,21 @@ import { Fade } from 'react-reveal';
 
 import CustomCarousel from './components/carousel/CustomCarousel';
 import CarouselTitle from './components/carousel/carouselTitle/CarouselTitle';
+import ScrollProgression from './components/scrollProgression/ScrollProgression';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 
 function App() {
   return (
     <div className="App">
+      <ScrollProgression/>
       <CustomCarousel/>
       <CarouselTitle/>
       <div>
         <Parallax           
-          blur={{ min: -30, max: 30 }}
           bgImage={require("./assets/parallax/parallax-bg.jpeg")}
           bgImageAlt="parallax-bg"
-          strength={-200}
+          strength={300}
         >
           <div>
             <Container className="container-box rounded">
