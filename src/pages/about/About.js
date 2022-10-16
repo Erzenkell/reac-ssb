@@ -6,7 +6,9 @@ import Kirbok from "../../assets/kirbok.jpg";
 const About = () => {
     return(
         <div className='about'>
+            <br/>
             <h1 className="pt-3 text-center pb-2 about-title">ABOUT ME</h1>
+            <br/>
             <Container>
                 <Row className=" pb-5 align-items-center">
                     <Col xs={12} md={6}>

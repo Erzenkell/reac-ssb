@@ -1,6 +1,6 @@
 .scrollDown{
 	position: absolute;
-	top: 90%;
+	top: 60vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -26,17 +26,16 @@
 	animation-delay: -0.4s;
 }
 
-@keyframes animate{
-	
-	0%{
-		opacity: 0;
-		transform: rotate(45deg) translate(-20px, -20px);
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-		transform: rotate(45deg) translate(20px, 20px);
-	}
-}
+    @keyframes animate{	
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }

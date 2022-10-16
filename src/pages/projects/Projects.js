@@ -7,6 +7,7 @@ const Projects = () => {
     return(
         <div className='projects'>
             <h1 className="pt-3 text-center pb-2 projects-title">PROJECTS</h1>
+            <br/>
             <Container>
                 <Row className=" pb-5 align-items-center">
                     <Col xs>
@@ -15,7 +16,8 @@ const Projects = () => {
                             Here are my differents projects made along my journey as a developer.
                             <br />                                
                             <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Most of them are school projects but I also made some personal projects like this portfolio.
+                            <br/>
                             <br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             <br />

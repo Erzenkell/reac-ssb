@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import StyledTitleMessage from "./StyledTItleMessage";
+import ScrollDownIndicator from "../../scrollDownIndicator/ScrollDownIndicator";
 
 const TitleMessage = () => (
     <StyledTitleMessage>
@@ -24,6 +25,7 @@ const TitleMessage = () => (
           </div>
         </div>
       </div>
+      <ScrollDownIndicator/>
     </StyledTitleMessage>
   );
   
