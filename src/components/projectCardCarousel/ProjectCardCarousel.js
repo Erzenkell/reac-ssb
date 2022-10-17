@@ -28,7 +28,7 @@ const ProjectList = [
 
 const ProjectCardCarousel = () => {
     return(
-        <Carousel interval={2500} indicators={false}>
+        <Carousel interval={2500} indicators={false} pause='hover'>
             { ProjectList.map(Project => (
             <Carousel.Item>
                 <Card className="bg-dark text-white">
@@ -36,7 +36,7 @@ const ProjectCardCarousel = () => {
                     <Card.ImgOverlay>
                         <Card.Title>{Project.imgDesc}</Card.Title>
                     </Card.ImgOverlay>
-                    <Card.Body className="text-center">
+                    <Card.Body className="text-center" style={{ zIndex: "100" }}>
                         <Card.Title>{Project.title}</Card.Title>
                         <Card.Text>
                             {Project.text}
