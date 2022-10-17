@@ -8,6 +8,7 @@ import CarouselTitle from './components/carousel/carouselTitle/CarouselTitle';
 import ScrollProgression from './components/scrollProgression/ScrollProgression';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
+import Experiments from './pages/experiments/Experiments';
 
 function App() {
   return (
@@ -34,6 +35,13 @@ function App() {
                 <Container className="container-box rounded">
                   <Fade right duration={2000}>
                     <Projects />
+                  </Fade>
+                </Container>
+              </div>
+              <div>
+                <Container className="container-box rounded">
+                  <Fade right duration={2000}>
+                    <Experiments />
                   </Fade>
                 </Container>
               </div>
