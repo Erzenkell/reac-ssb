@@ -21,20 +21,22 @@ function App() {
           bgImageAlt="parallax-bg"
           strength={300}
         >
-          <div className="ParallaxOverlay">
-            <div>
-              <Container className="container-box rounded">
-                <Fade left duration={2000}>
-                  <About />
-                </Fade>
-              </Container>
-            </div>
-            <div>
-              <Container className="container-box rounded">
-                <Fade right duration={2000}>
-                  <Projects />
-                </Fade>
-              </Container>
+          <div className ="parallax-overlay">
+            <div className="page-container">
+              <div>
+                <Container className="container-box rounded">
+                  <Fade left duration={2000}>
+                    <About />
+                  </Fade>
+                </Container>
+              </div>
+              <div>
+                <Container className="container-box rounded">
+                  <Fade right duration={2000}>
+                    <Projects />
+                  </Fade>
+                </Container>
+              </div>
             </div>
           </div>
         </Parallax>

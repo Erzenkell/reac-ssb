@@ -18,14 +18,10 @@ const About = () => {
                     </Col>
                     <Col xs={12} md={6}>
                         <Row className=" align-items-start p-2 rounded tex align-text-left about-text" >
-                            Web Developer with expertise of React.js, Next, Javascript, HTML and CSS. Currently working with React Native for a Web Application.
+                            Front-end Web Developer with expertise of React.js, Next.js, Javascript, HTML and CSS.
                             <br />
                             <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Currently on my 3rd year of a bachelor degree in web development at HETIC. I'm working in a stratup which is making a company project management web app and looking for a change for my 3rd year of studies. 
                             <br /> 
                             <br />
                             <Col className="d-flex justify-content-center flex-wrap">

@@ -9,25 +9,22 @@ const Projects = () => {
             <h1 className="pt-3 text-center pb-2 projects-title">PROJECTS</h1>
             <br/>
             <Container>
-                <Row className=" pb-5 align-items-center">
-                    <Col xs>
+                <Col className=" pb-5 align-items-center">
+                    <Row xs>
                         <Row className="justify-content-center mb-2 mr-2 projects-text">
                             <br />
                             Here are my differents projects made along my journey as a developer.
                             <br />                                
                             <br/>
-                            Most of them are school projects but I also made some personal projects like this portfolio.
+                            Most of them are school projects but I also made some personal projects like this portfolio. I mainly use React.js for my projects but have connaisance of other frameworks and back-end development. 
                             <br/>
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                         </Row>
-                    </Col>
-                    <Col lg={7}>
+                            <br/>
+                        </Row>
+                    </Row>
+                    <Row lg={7}>
                         <ProjectCardCarousel/>
-                    </Col>
-                </Row>
+                    </Row>
+                </Col>
             </Container>
         </div>   
     );

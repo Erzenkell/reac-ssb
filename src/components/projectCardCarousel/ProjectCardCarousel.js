@@ -1,43 +1,47 @@
 import React from 'react'
 import { Card, Carousel, Button } from "react-bootstrap";
+import "./ProjectCardCarousel.css";
 
 const ProjectList = [
     {
-        title: "Test 1",
-        imgSrc: require("../../assets/kirbok.jpg"),
-        imgDesc: "test1",
-        text: "project language and content",
+        title: "Who got Next?",
+        imgSrc: require("../../assets/projects/project-whogotnext.png"),
+        imgDesc: "",
+        text: "A school project made at the end of my 2nd year, it's a web app made with React and Firebase for the front. The main purpose of Who Got Next is to help people find a place were to play sport and people to play with.",
+        link: "https://github.com/Hetic-web2-g1/Who_Got_Next"
     },
     {
-        title: "Test 2",
-        imgSrc: require("../../assets/kirbok.jpg"),
-        imgDesc: "test2",
-        text: "project language and content",
+        title: "Flamingo Bot",
+        imgSrc: require("../../assets/projects/project-discord.png"),
+        imgDesc: "",
+        text: "A discord music bot made with discord.js, discord api is making a lot of changes so the bot is currently not working but I put a lot of effort into it.",
+        link: "https://github.com/Erzenkell/Flamingo-bot"
     },
     {
-        title: "Test 3",
+        title: "Poitiers 2077",
         imgSrc: require("../../assets/kirbok.jpg"),
-        imgDesc: "test3",
-        text: "project language and content",
+        imgDesc: "",
+        text: "My first school project made with Python, it's a text based game with some ascii assets. It's not much but was fun to make so here it is.",
+        link: "https://github.com/Erzenkell/Poitiers-2077"
     },
 ]
 
 const ProjectCardCarousel = () => {
     return(
-        <Carousel interval={2500}>
+        <Carousel interval={2500} indicators={false}>
             { ProjectList.map(Project => (
             <Carousel.Item>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={Project.imgSrc} alt="test1" />
+                <Card className="bg-dark text-white project-card">
+                    <Card.Img src={Project.imgSrc} alt="test1" className="project-img"/>
                     <Card.ImgOverlay>
                         <Card.Title>{Project.imgDesc}</Card.Title>
                     </Card.ImgOverlay>
-                    <Card.Body>
+                    <Card.Body className="text-center">
                         <Card.Title>{Project.title}</Card.Title>
                         <Card.Text>
                             {Project.text}
                         </Card.Text>
-                        <Button variant="primary">Project repo</Button>
+                        <Button variant="primary" href={Project.link}>Project repo</Button>
                     </Card.Body>
                 </Card>
             </Carousel.Item>

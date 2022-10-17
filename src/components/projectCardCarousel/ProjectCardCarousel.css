@@ -1,0 +1,12 @@
+.project-card {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.project-img {
+    display: block;
+    max-width:80vw;
+    max-height:80vh;
+    width: auto;
+    height: auto;
+}
