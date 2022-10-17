@@ -19,7 +19,7 @@ const ProjectList = [
     },
     {
         title: "Poitiers 2077",
-        imgSrc: require("../../assets/kirbok.jpg"),
+        imgSrc: require("../../assets/projects/project-poitiers2077.png"),
         imgDesc: "",
         text: "My first school project made with Python, it's a text based game with some ascii assets. It's not much but was fun to make so here it is.",
         link: "https://github.com/Erzenkell/Poitiers-2077"
@@ -31,7 +31,7 @@ const ProjectCardCarousel = () => {
         <Carousel interval={2500} indicators={false}>
             { ProjectList.map(Project => (
             <Carousel.Item>
-                <Card className="bg-dark text-white project-card">
+                <Card className="bg-dark text-white">
                     <Card.Img src={Project.imgSrc} alt="test1" className="project-img"/>
                     <Card.ImgOverlay>
                         <Card.Title>{Project.imgDesc}</Card.Title>
