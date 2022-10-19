@@ -24,7 +24,7 @@ const About = () => {
                             Currently on my 3rd year of a bachelor degree in web development at HETIC. I'm working in a stratup which is making a company project management web app and looking for a change for my 3rd year of studies. 
                             <br /> 
                             <br/>
-                            This portfolio is mainly used as a way for me to test different React librairies and features but also to show my work.
+                            This portfolio is still in development and is mainly used as a way for me to test different React librairies and features but also to show my work.
                             <br/>
                             <br />
                             <Col className="d-flex justify-content-center flex-wrap">
