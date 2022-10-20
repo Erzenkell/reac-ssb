@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col, Container } from "react-bootstrap";
+import ThreeExperiment from '../../components/threeExperiment/ThreeExperiment';
 import "./Experiments.css";
 
 const Experiments = () => {
@@ -14,6 +15,12 @@ const Experiments = () => {
                             <br />
                             Now we get to the fun part huh?
                             <br />
+                            Here we have some small experiments I made with Three.js 
+                            <br/>
+                            <br/>
+                        </Row>
+                        <Row>
+                            <ThreeExperiment/>
                         </Row>
                     </Row>
                 </Col>
