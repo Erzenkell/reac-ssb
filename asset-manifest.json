@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reac-ssb/static/css/main.74116338.css",
-    "main.js": "/reac-ssb/static/js/main.990673a4.js",
+    "main.css": "/reac-ssb/static/css/main.fe900a72.css",
+    "main.js": "/reac-ssb/static/js/main.0bac643c.js",
     "static/js/787.75be472c.chunk.js": "/reac-ssb/static/js/787.75be472c.chunk.js",
     "static/media/parallax-bg-4.png": "/reac-ssb/static/media/parallax-bg-4.cdd5808bfe0e68966dda.png",
     "static/media/project-whogotnext.png": "/reac-ssb/static/media/project-whogotnext.9cf2235e1e7b4e19a7e9.png",
@@ -11,12 +11,12 @@
     "static/media/bg2.jpeg": "/reac-ssb/static/media/bg2.2e5e0ed928a5c9035b65.jpeg",
     "static/media/kirbok.jpg": "/reac-ssb/static/media/kirbok.874568ad8ff81038d5d4.jpg",
     "index.html": "/reac-ssb/index.html",
-    "main.74116338.css.map": "/reac-ssb/static/css/main.74116338.css.map",
-    "main.990673a4.js.map": "/reac-ssb/static/js/main.990673a4.js.map",
+    "main.fe900a72.css.map": "/reac-ssb/static/css/main.fe900a72.css.map",
+    "main.0bac643c.js.map": "/reac-ssb/static/js/main.0bac643c.js.map",
     "787.75be472c.chunk.js.map": "/reac-ssb/static/js/787.75be472c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74116338.css",
-    "static/js/main.990673a4.js"
+    "static/css/main.fe900a72.css",
+    "static/js/main.0bac643c.js"
   ]
 }
