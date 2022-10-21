@@ -1,10 +1,9 @@
-import * as THREE from 'three'
 import { Box, Plane } from "@react-three/drei";
-import React, { Suspense, useMemo }  from "react";
-import { Canvas, useLoader } from "react-three-fiber";
-import { Physics, useBox, usePlane, useSphere } from "@react-three/cannon";
+import React from "react";
+import { Canvas } from "react-three-fiber";
+import { Physics, useBox, usePlane } from "@react-three/cannon";
 import niceColors from 'nice-color-palettes';
-import "./ThreeExperiment.css";
+import "./ImpulseAndVelocity.css";
 
 const PhyPlane = ({ color, ...props }) => {
     const [ref] = usePlane(() => ({ ...props }));
@@ -33,9 +32,9 @@ const PhyBox = (props) => {
     );
 }
 
-const ThreeExperiment = () => {
+const ImpulseAndVelocity = () => {
     return (
-        <div className='three-container'>
+        <div className='three-iav-container'>
             Impulse and velocity test
             <Canvas camera={{ position: [0, 0, 0], near: 0.1, far: 1000 }}>
                 <Physics gravity={[0, -10, 0]}>
@@ -58,4 +57,4 @@ const ThreeExperiment = () => {
     );
 }
 
-export default ThreeExperiment;
+export default ImpulseAndVelocity;

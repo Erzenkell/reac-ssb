@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from "react-bootstrap";
-import ThreeExperiment from '../../components/threeExperiment/ThreeExperiment';
+import ImpulseAndVelocity from '../../components/threeExperiment/impulseAndVelocity/ImpulseAndVelocity';
+import MovingObject from '../../components/threeExperiment/movingObject/MovingObject';
 import "./Experiments.css";
 
 const Experiments = () => {
@@ -20,7 +21,10 @@ const Experiments = () => {
                             <br/>
                         </Row>
                         <Row>
-                            <ThreeExperiment/>
+                            <ImpulseAndVelocity/>
+                        </Row>
+                        <Row>
+                            <MovingObject/>
                         </Row>
                     </Row>
                 </Col>
