@@ -35,7 +35,8 @@ const PhyBox = (props) => {
 const ImpulseAndVelocity = () => {
     return (
         <div className='three-iav-container'>
-            Impulse and velocity test
+            Impulse and velocity test <br/>
+            Click on the cube to launch it
             <Canvas camera={{ position: [0, 0, 0], near: 0.1, far: 1000 }}>
                 <Physics gravity={[0, -10, 0]}>
                     <PhyPlane

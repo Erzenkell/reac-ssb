@@ -67,6 +67,7 @@ const Person = (props) => {
 
     useFrame(() => {
         camera.position.copy(ref.current.position);
+        //camera.rotation.set(deg2rad(30), 0, 0); Rota camera TODO
         const direction = new Vector3();
 
         const frontVector = new Vector3(
@@ -109,6 +110,7 @@ const PhyPlane = ({ color, ...props }) => {
 const MovingObject = () => {
     return (
         <div className="three-mv-container">
+            <br/>
             <br/>
             Movement test
             <br/>
