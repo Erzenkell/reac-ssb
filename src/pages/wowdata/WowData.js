@@ -8,7 +8,7 @@ const WowData = () => {
     const [characterData, setCharacterData] = useState(null);
 
     async function raiderioApiCall (character) {
-        await fetch(`https://raider.io/api/v1/characters/profile?region=eu&realm=Archimonde&name=${character}`)
+        await fetch(`https://raider.io/api/v1/characters/profile?region=eu&realm=Archimonde&name=${character}&fields=%5Bmythic_plus_scores_by_season%2Cgear%2Ctalents%5D`)
         .then(response => response.json())
         .then(data => {
             setCharacterData(data);
