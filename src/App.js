@@ -8,6 +8,7 @@ import { Fade } from 'react-reveal';
 import CustomCarousel from './components/carousel/CustomCarousel';
 import CarouselTitle from './components/carousel/carouselTitle/CarouselTitle';
 import ScrollProgression from './components/scrollProgression/ScrollProgression';
+import CursorFollower from './components/cursorFollower/cursorFollower';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Experiments from './pages/experiments/Experiments';
@@ -15,6 +16,7 @@ import Experiments from './pages/experiments/Experiments';
 function App() {
   return (
     <div className="App">
+      <CursorFollower/>
       <ScrollProgression/>
       <CustomCarousel/>
       <CarouselTitle/>

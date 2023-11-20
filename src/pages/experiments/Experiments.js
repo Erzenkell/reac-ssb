@@ -14,8 +14,6 @@ const Experiments = () => {
                     <Row xs>
                         <Row className="justify-content-center mb-2 mr-2 experiments-text">
                             <br />
-                            Now we get to the fun part huh?
-                            <br />
                             Here we have some small experiments I made with Three.js 
                             <br/>
                             <br/>

@@ -1,0 +1,12 @@
+.cursor-follower {
+    position: absolute !important;
+}
+
+.cursor-follower-inner {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
