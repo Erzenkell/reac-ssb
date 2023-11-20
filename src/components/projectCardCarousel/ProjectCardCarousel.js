@@ -14,16 +14,16 @@ const ProjectList = [
         title: "Flamingo Bot",
         imgSrc: require("../../assets/projects/project-discord.png"),
         imgDesc: "",
-        text: "A discord music bot made with discord.js, discord api is making a lot of changes so the bot is currently not working but I put a lot of effort into it.",
+        text: "A discord music and command bot made with discord.js, discord api is making a lot of changes so the bot is currently not working but I put a lot of effort into it.",
         link: "https://github.com/Erzenkell/Flamingo-bot"
     },
     {
-        title: "Poitiers 2077",
-        imgSrc: require("../../assets/projects/project-poitiers2077.png"),
+        title: "Masterclass catalog for Saline Royale Academy",
+        imgSrc: require("../../assets/projects/project-academy.png"),
         imgDesc: "",
-        text: "My first school project made with Python, it's a text based game with some ascii assets. It's not much but was fun to make so here it is.",
-        link: "https://github.com/Erzenkell/Poitiers-2077"
-    },
+        text: "A school project made at the end of my 3rd year, it's a web app made with React and Python. The main purpose of this project was to provide a Back-office for Masterclass production for the Saline Royale Academy.",
+        link: "https://github.com/Hetic-web3-g1/PROJET_FIL_ROUGE_W3_G4"
+    }
 ]
 
 const ProjectCardCarousel = () => {
