@@ -1,0 +1,8 @@
+.three-iav-container {
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background-color: transparent;
+    position: relative;
+    z-index: 9;
+}

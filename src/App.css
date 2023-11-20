@@ -1,0 +1,16 @@
+.container-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
+
+.parallax-overlay {
+  background: rgba(0,0,0,0.5);
+}
+
+.page-container {
+  
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

@@ -1,0 +1,11 @@
+.cursor-follower {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
